@@ -1,0 +1,452 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    width: 100%;
+}
+.code1
+{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Times;
+}
+.button1
+{
+    position: absolute;
+    top: 30.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(255, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button2
+{
+    position: absolute;
+    top: 30.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(0, 255, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button3
+{
+    position: absolute;
+    top: 30.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(0, 0, 255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button4
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(255, 0, 255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button5
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(0, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button6
+{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(255, 255, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button7
+{
+    position: absolute;
+    top: 69.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(255, 150, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button8
+{
+    position: absolute;
+    top: 69.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(255, 0, 150);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button9
+{
+    position: absolute;
+    top: 69.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 65px;
+    background: rgb(0, 255, 150);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button10
+{
+    position: absolute;
+    top: 0%;
+    left: 5.2%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+.p1
+{
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+    background: rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    font-size: 18px;
+}
+.p2
+{
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 125px;
+    background: rgb(50, 50, 50);
+    width: 300px;
+    height: 300px;
+    font-size: 18px;
+}
+
+/*Separation*/
+
+.p-1
+{
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-2
+{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-3
+{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-4
+{
+    position: absolute;
+    top: 47.6%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-5
+{
+    position: absolute;
+    top: 47.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-6
+{
+    position: absolute;
+    top: 47.6%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-7
+{
+    position: absolute;
+    top: 67.1%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-8
+{
+    position: absolute;
+    top: 67.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-9
+{
+    position: absolute;
+    top: 67.1%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+/*Separation*/
+
+.button10Phone
+{
+    position: absolute;
+    top: 0%;
+    left: 5.2%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    visibility: collapse;
+    outline: none;
+}
+
+/*Media Separation*/
+
+@media only screen and (max-width: 600px) {
+    .code1
+    {
+        font-size: 16px;
+        top: 4%;
+        left: 4%;
+    }
+    .button10
+    {
+        visibility: collapse;
+    }
+    .button10Phone
+    {
+        top: 0.1%;
+        left: 20%;
+        visibility: visible;
+    }
+    .wrapper
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .button1
+    {
+        top: 38.5%;
+        left: 32%;
+        padding: 33px;
+    }
+    .button2
+    {
+        top: 38.5%;
+        left: 50%;
+        padding: 33px;
+    }
+    .button3
+    {
+        top: 38.5%;
+        left: 68%;
+        padding: 33px;
+    }
+    .button4
+    {
+        top: 50%;
+        left: 32%;
+        padding: 33px;
+    }
+    .button5
+    {
+        top: 50%;
+        left: 50%;
+        padding: 33px;
+    }
+    .button6
+    {
+        top: 50%;
+        left: 68%;
+        padding: 33px;
+    }
+    .button7
+    {
+        top: 61.5%;
+        left: 32%;
+        padding: 33px;
+    }
+    .button8
+    {
+        top: 61.5%;
+        left: 50%;
+        padding: 33px;
+    }
+    .button9
+    {
+        top: 61.5%;
+        left: 68%;
+        padding: 33px;
+    }
+    .p1
+    {
+        width: 175px;
+        height: 175px;
+        padding: 75px;
+    }
+    .p2
+    {
+        width: 175px;
+        height: 175px;
+        padding: 65px;
+    }
+
+    /*Separation*/
+
+    .p-1
+    {
+    position: absolute;
+    top: 35.7%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-2
+    {
+    position: absolute;
+    top: 35.7%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-3
+    {
+    position: absolute;
+    top: 35.7%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-4
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-5
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-6
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-7
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-8
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-9
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+}

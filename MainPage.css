@@ -1,0 +1,905 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: fantasy;
+    overflow: hidden;
+}
+.FrontImage
+{
+    position: absolute;
+    top: 5%;
+}
+.TopBackImage
+{
+    position: absolute;
+    top: 0%;
+    filter: blur(100px);
+}
+.BottomBackImage
+{
+    position: absolute;
+    top: 15%;
+    filter: blur(100px);
+}
+.BorderTop
+{
+    position: absolute;
+    top: -3.5%;
+    width: 100%;
+    filter: blur(10px);
+    background: black;
+    height: 125px;
+}
+.BorderBottom
+{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    filter: blur(10px);
+    background: black;
+    height: 125px;
+}
+header
+{
+    top: 0%;
+    left: 0%;
+    height: 110px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SNLogo
+{
+    position: absolute;
+    user-select: none;
+    top: -4.5%;
+    left: -1.2%
+}
+.navigation .AccountText
+{
+    position: relative;
+    left: 15.5%;
+    font-size: 25px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation .AccountPlacement
+{
+    position: absolute;
+    top: 5.4%;
+    left: 13.7%;
+    font-size: 20px;
+    color: red;
+    font-family: "Cambria";
+    border-bottom: 2px solid red;
+    padding-right: 10px;
+    margin-left: 37.5px;
+}
+.ParLeft
+{
+    position: absolute;
+    top: 4.8%;
+    left: 28.5%;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.ParRight
+{
+    position: absolute;
+    top: 4.8%;
+    left: 67%;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigation a
+{
+    position: relative;
+    left: 59%;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s;
+}
+.navigation a:hover::after
+{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.ButtonNav .btnLogin-popup
+{
+    position: absolute;
+    width: 130px;
+    left: 75%;
+    top: 4%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+}
+.ButtonNav .btnLogin-popup:hover
+{
+    background: #fff;
+    color: black;
+}
+.ButtonNav .btnSignUp-popup
+{
+    position: absolute;
+    width: 130px;
+    left: 87%;
+    top: 4%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .3s;
+}
+.ButtonNav .btnSignUp-popup:hover
+{
+    background: #fff;
+    color: black;
+}
+.LoginWrapper
+{
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+.XButtonLogin
+    {
+        position: absolute;
+        top: 17%;
+        left: 67.1%;
+        background: rgb(10, 10, 10);
+        text-align: center;
+        border: 2px solid black;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        color: white;
+        font-size: 35px;
+        padding: 10px;
+        font-family: fantasy;
+        width: 50px;
+        height: 5cqmin;
+    }
+    .XButtonLogin:hover
+    {
+        cursor: pointer;
+    }
+    .LoginText
+{
+    position: absolute;
+    font-size: 40px;
+    left: 34%;
+    font-family: Verdana;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 30%;
+    border-bottom: 2px solid;
+    top: 15%;
+    color: black;
+}
+.LoginBackground
+{
+    position: absolute;
+    top: 2.7%;
+    left: 26.7%;
+    font-size: 100px;
+    border-radius: 25px;
+    filter: blur(1px);
+    opacity: 0.2;
+    background: white;
+    height: 70%;
+    width: 45.35%;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+.LoginBackgroundBorder
+{
+    position: absolute;
+    top: 2.5%;
+    left: 26.5%;
+    font-size: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 70%;
+    width: 45.5%;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+
+.SignUpWrapper
+{
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+.XButtonSignUp
+    {
+        position: absolute;
+        margin-top: -1.8%;
+        left: 67.1%;
+        background: rgb(10, 10, 10);
+        text-align: center;
+        border: 2px solid black;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        color: white;
+        font-size: 35px;
+        padding: 10px;
+        font-family: fantasy;
+        width: 50px;
+        height: 5cqmin;
+    }
+    .XButtonSignUp:hover
+    {
+        cursor: pointer;
+    }
+    .SignUpText
+{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 1.5%;
+    left: 34%;
+    font-family: Verdana;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 30%;
+    border-bottom: 2px solid;
+    color: black;
+}
+.SignUpBackground
+{
+    position: absolute;
+    top: -0.5%;
+    left: 26.7%;
+    font-size: 100px;
+    border-radius: 25px;
+    filter: blur(1px);
+    opacity: 0.2;
+    background: white;
+    height: 77.9%;
+    width: 45.35%;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+.SignUpBackgroundBorder
+{
+    position: absolute;
+    top: -0.8%;
+    left: 26.5%;
+    font-size: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 78%;
+    width: 45.5%;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform: 100%;
+    transform-origin: top;
+}
+.ContactBackground
+{
+    position: absolute;
+    top: 8%;
+    left: 49.5%;
+    height: 5.9%;
+    filter: blur(1px);
+    border-radius: 10px;
+    width: 25%;
+    background: White;
+    opacity: 0.2;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform-origin: top;
+}
+.ContactBackgroundBorder
+{
+    position: absolute;
+    top: 7.7%;
+    left: 49.3%;
+    height: 5.9%;
+    border-radius: 10px;
+    width: 25%;
+    border: 2px solid Black;
+
+    transform: scale(0);
+    transition: transform .5s ease;
+    transform-origin: top;
+}
+.ContactText
+{
+    position: absolute;
+    top: 9.5%;
+    left: 49.9%;
+    display: none;
+    opacity: 1;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    animation: TextFade;
+    animation-iteration-count: 0s;
+    animation-duration: .5s;
+    animation-delay: .5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+    @keyframes TextFade{
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+.ContactText::after
+{
+    position: absolute;
+    top: -15%;
+    font-style: italic;
+    left: 115%;
+    font-family: cursive;
+    content: "Ph4nt0mZ4ckStudios@gmail.com";
+}
+
+/*Element Separation*/
+
+.ContactTextFade
+{
+    position: absolute;
+    top: 9.5%;
+    left: 49.9%;
+    display: none;
+    opacity: 1;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    animation: TextFade2;
+    animation-iteration-count: 0s;
+    animation-duration: -0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+    @keyframes TextFade2{
+        from{opacity: 1;}
+        to{opacity: 0;}
+    }
+.ContactTextFade::after
+{
+    position: absolute;
+    top: -15%;
+    font-style: italic;
+    left: 115%;
+    font-family: cursive;
+    content: "Ph4nt0mZ4ckStudios@gmail.com";
+}
+
+/*Element Separation*/
+
+.AccountPlacement::after
+{
+    position: absolute;
+    content: "Unregistered";
+    text-transform: uppercase;
+    font-family: "Cambria";
+    border-bottom: 2px solid red;
+    color: red;
+    padding-right: 10px;
+}
+.SnowwMailImage
+{
+    position: absolute;
+    margin-top: 9%;
+    left: 26%;
+}
+.EmailBackground
+{
+    position: absolute;
+    margin-top: 12.39%;
+    left: 34.2%;
+    background: rgb(50, 50, 50);
+    opacity: 0.5;
+    border-radius: 2.5px;
+    width: 30%;
+    height: 50px;
+}
+.EmailBackgroundBorder
+{
+    position: absolute;
+    margin-top: 12.25%;
+    left: 34%;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    width: 30%;
+    height: 50px;
+}
+.EmailPlacementText
+{
+    position: absolute;
+    color:rgb(75, 75, 75);
+    margin-top: 13%;
+    left: 34.7%;
+    width: 28.9%;
+    background: none;
+    font-family: "cursive";
+    font-size: 25px;
+    font-style: italic;
+    border: none;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.EmailPlacementText:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+/*Pass/Email Separation*/
+
+.SnowwWordImage
+{
+    position: absolute;
+    margin-top: 20%;
+    left: 26.8%;
+}
+.PasswordBackground
+{
+    position: absolute;
+    margin-top: 22.37%;
+    left: 34.2%;
+    background: rgb(50, 50, 50);
+    opacity: 0.5;
+    border-radius: 2.5px;
+    width: 30%;
+    height: 50px;
+}
+.PasswordBackgroundBorder
+{
+    position: absolute;
+    margin-top: 22.25%;
+    left: 34%;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    width: 30%;
+    height: 50px;
+}
+.PasswordPlacementText
+{
+    position: absolute;
+    color:rgb(75, 75, 75);
+    margin-top: 23%;
+    left: 34.7%;
+    width: 28.9%;
+    background: none;
+    font-family: "cursive";
+    font-size: 25px;
+    font-style: italic;
+    border: none;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.PasswordPlacementText:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+.AboveEmailText
+{
+    position: absolute;
+    margin-top: 9.5%;
+    left: 34.2%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: ("bold", "italic");
+    font-size: 25px;
+}
+.AbovePasswordText
+{
+    position: absolute;
+    margin-top: 19.5%;
+    left: 34.2%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: ("bold", "italic");
+    font-size: 25px;
+}
+.LoginSubmitButton
+{
+    position: absolute;
+    margin-top: 31%;
+    left: 41%;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    width: 15%;
+    font-size: 25px;
+    border: 2.5px solid black;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    color: black
+}
+.LoginSubmitButton:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+.LoginSubmitButtonBackground
+{
+    position: absolute;
+    margin-top: 31%;
+    left: 41%;
+    height: 44px;
+    width: 14.4%;
+    opacity: 0.2;
+    background: white;
+    border-radius: 10px;
+}
+.ContactInfoText
+{
+    position: absolute;
+    top: 5.5%;
+    left: 57%;
+    font-size: 25px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: 500;
+}
+.ContactInfoText::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s;
+}
+.ContactInfoText:hover::after
+{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/*Element Separation*/
+
+.ContactInfoTextRep
+{
+    position: absolute;
+    top: 5.5%;
+    left: 57%;
+    display: none;
+    font-size: 25px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: 500;
+}
+.ContactInfoTextRep::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s;
+}
+.ContactInfoTextRep:hover::after
+{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/*Element Separation*/
+
+.SignUpSnowwNameImage
+{
+    position: absolute;
+    margin-top: 10.9%;
+    left: 28%;
+}
+.SignUpNameBackground
+{
+    position: absolute;
+    margin-top: 11.84%;
+    left: 34.2%;
+    background: rgb(50, 50, 50);
+    opacity: 0.5;
+    border-radius: 2.5px;
+    width: 30%;
+    height: 50px;
+}
+.SignUpNameBackgroundBorder
+{
+    position: absolute;
+    margin-top: 11.7%;
+    left: 34%;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    width: 30%;
+    height: 50px;
+}
+.SignUpUsernamePlacementText
+{
+    position: absolute;
+    color:rgb(75, 75, 75);
+    margin-top: 12.5%;
+    left: 34.7%;
+    width: 28.9%;
+    background: none;
+    font-family: "cursive";
+    font-size: 25px;
+    font-style: italic;
+    border: none;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.SignUpUsernamePlacementText:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+.SignUpAboveNameText
+{
+    position: absolute;
+    margin-top: 8.5%;
+    left: 34.2%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: ("bold", "italic");
+    font-size: 25px;
+}
+
+/*Element Separation*/
+
+.SignUpSnowwMailImage
+{
+    position: absolute;
+    margin-top: 15.2%;
+    left: 24.5%;
+}
+.SignUpEmailBackground
+{
+    position: absolute;
+    margin-top: 19.85%;
+    left: 34.2%;
+    background: rgb(50, 50, 50);
+    opacity: 0.5;
+    border-radius: 2.5px;
+    width: 30%;
+    height: 50px;
+}
+.SignUpEmailBackgroundBorder
+{
+    position: absolute;
+    margin-top: 19.7%;
+    left: 34%;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    width: 30%;
+    height: 50px;
+}
+.SignUpEmailPlacementText
+{
+    position: absolute;
+    color:rgb(75, 75, 75);
+    margin-top: 20.3%;
+    left: 34.7%;
+    width: 28.9%;
+    background: none;
+    font-family: "cursive";
+    font-size: 25px;
+    font-style: italic;
+    border: none;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.SignUpEmailPlacementText:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+.SignUpAboveEmailText
+{
+    position: absolute;
+    margin-top: 16.5%;
+    left: 34.2%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: ("bold", "italic");
+    font-size: 25px;
+}
+
+/*Element Separation*/
+
+.SignUpSnowwWordImage
+{
+    position: absolute;
+    margin-top: 25.5%;
+    left: 26.6%;
+}
+.SignUpPasswordBackground
+{
+    position: absolute;
+    margin-top: 27.85%;
+    left: 34.2%;
+    background: rgb(50, 50, 50);
+    opacity: 0.5;
+    border-radius: 2.5px;
+    width: 30%;
+    height: 50px;
+}
+.SignUpPasswordBackgroundBorder
+{
+    position: absolute;
+    margin-top: 27.7%;
+    left: 34%;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    width: 30%;
+    height: 50px;
+}
+.SignUpPasswordPlacementText
+{
+    position: absolute;
+    color:rgb(75, 75, 75);
+    margin-top: 28.5%;
+    left: 34.7%;
+    width: 28.9%;
+    background: none;
+    font-family: "cursive";
+    font-size: 25px;
+    font-style: italic;
+    border: none;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.SignUpPasswordPlacementText:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+.SignUpAbovePasswordText
+{
+    position: absolute;
+    margin-top: 24.5%;
+    left: 34.2%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: ("bold", "italic");
+    font-size: 25px;
+}
+
+/*Element Separation*/
+
+.SignUpSubmitButton
+{
+    position: absolute;
+    margin-top: 35%;
+    left: 41%;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    width: 15%;
+    font-size: 25px;
+    border: 2.5px solid black;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    color: black
+}
+.SignUpSubmitButton:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+.SignUpSubmitButtonBackground
+{
+    position: absolute;
+    margin-top: 35%;
+    left: 41%;
+    height: 44px;
+    width: 14.4%;
+    opacity: 0.2;
+    background: white;
+    border-radius: 10px;
+}
+
+/*Separation*/
+
+.SNLogPos
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 40%;
+    display: none;
+    color: rgb(0, 255, 0);
+    background: black;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 255, 0);
+    text-align: center;
+    line-height: -0px;
+}
+.SNLogPos code
+{
+    position: relative;
+    top: 18%;
+}
+.SNLogPos .RedUnit
+{
+    position: relative;
+    top: 0px;
+    color: red;
+}
+.SNLogPos .SpacedUnit
+{
+    position: relative;
+    top: 0%;
+    color: white;
+    opacity: 0;
+}
