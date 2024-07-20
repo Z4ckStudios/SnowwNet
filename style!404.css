@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Indie_Flower";
+    src: url(Indie_Flower/IndieFlower-Regular.ttf) format(truetype);
+}
 body
 {
     margin: 0;
@@ -130,7 +134,9 @@ body
     top: 78%;
     left: 41%;
     user-select: none;
-    font-family: fantasy;
+    font-family: "Indie_Flower";
+    font-weight: 1000;
+    font-style: oblique;
     font-size: 20px;
     border-radius: 10px;
     color: white;
@@ -147,7 +153,9 @@ body
     top: 78%;
     left: 41%;
     user-select: none;
-    font-family: fantasy;
+    font-family: "Indie_Flower";
+    font-weight: 1000;
+    font-style: oblique;
     font-size: 20px;
     border-radius: 10px;
     color: white;
