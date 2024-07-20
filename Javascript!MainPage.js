@@ -6,14 +6,14 @@ var i = 2;
 localStorage.setItem("SiteLocation", "MainPage");
 
 var url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/";
-window.history.replaceState(null, document.title, url);
+//window.history.replaceState(null, document.title, url);
 
 document.querySelector(".btnLogin-popup").addEventListener("click",
 function(){
     i = i < LoginUpPopup.length ? ++i : i - 2;
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/Login/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
 document.querySelector(".LoginWrapper").style.transform = LoginUpPopup[i];
 document.querySelector(".LoginBackground").style.transform = LoginUpPopup[i];
@@ -42,7 +42,7 @@ function(){
     i = i < LoginX.length ? ++i : i - 2;
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
 document.querySelector(".LoginWrapper").style.transform = "scale(0)";
 document.querySelector(".LoginBackground").style.transform = "scale(0)";
@@ -59,7 +59,7 @@ function(){
     i = i < SignUpPopup.length ? ++i : i - 2;
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/SignUp/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
 document.querySelector(".SignUpWrapper").style.transform = SignUpPopup[i];
 document.querySelector(".SignUpBackground").style.transform = SignUpPopup[i];
@@ -89,7 +89,7 @@ function(){
     i = i < SignUpX.length ? ++i : i - 2;
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
 document.querySelector(".SignUpWrapper").style.transform = "scale(0)";
 document.querySelector(".SignUpBackground").style.transform = "scale(0)";
@@ -124,7 +124,7 @@ document.querySelector(".ContactInfoText").addEventListener("click",
 function() {
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/ContactInfo/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
 document.querySelector(".ContactBackground").style.transform = "scale(1)";
 document.querySelector(".ContactBackgroundBorder").style.transform = "scale(1)";
@@ -150,7 +150,7 @@ document.querySelector(".ContactInfoTextRep").addEventListener("click",
 function() {
 
     url = "https://Z4ckStudios.github.io/SnowwNet/MainPage/";
-    window.history.replaceState(null, document.title, url);
+    //window.history.replaceState(null, document.title, url);
 
     document.querySelector(".ContactBackground").style.transform = "scale(0)";
     document.querySelector(".ContactBackgroundBorder").style.transform = "scale(0)";
@@ -190,7 +190,7 @@ AUButton.addEventListener("click",
 function() {
     
     localStorage.setItem("SiteLocation", "AboutUs");
-    location.replace("https://Z4ckStudios.github.io/SnowwNet/AboutUs.html");
+    location.replace("https://Z4ckStudios.github.io/SnowwNet/");
 })
 
 SSButton.addEventListener("click",

@@ -1,5 +1,5 @@
 let StartTimer = 0;
-const StartTimerInterval = setInterval(StartTimerInt, 1000);
+//const StartTimerInterval = setInterval(StartTimerInt, 1000);
 
 SiteLocation = localStorage.getItem("SiteLocation");
 
