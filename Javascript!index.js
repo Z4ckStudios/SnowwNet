@@ -9,7 +9,7 @@ window.history.replaceState(null, document.title, url);
 function StartTimerInt() {
     StartTimer++
 
-    if(StartTimer > 1 && SiteLocation == "MainPage")
+    if(StartTimer > 1 && SiteLocation == null || StartTimer > 1 && SiteLocation == "MainPage")
         {location.replace("https://Z4ckStudios.github.io/SnowwNet/MainPage.html");}
     else
     if(StartTimer > 1 && SiteLocation == "AboutUs")
