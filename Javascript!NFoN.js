@@ -1,7 +1,7 @@
 var displays = ["inline", "none"];
 var i = 2;
 
-var url = "/SnowwNet/404/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/404/";
 window.history.replaceState(null, document.title, url);
 
 document.querySelector(".DevEmailButton").addEventListener("click",

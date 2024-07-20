@@ -1,4 +1,4 @@
-var url = "/SnowwNet/Redirecting/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/Redirecting/";
 window.history.replaceState(null, document.title, url);
 
 let count = 0;
@@ -9,5 +9,5 @@ function countInt() {
 
     if(count > 1)
     {window.open("https://Z4ckStudios.github.io/Z4ckStudios");
-    location.replace("/MainPage.html");}
+    location.replace("https://Z4ckStudios.github.io/SnowwNet/MainPage/");}
 }
