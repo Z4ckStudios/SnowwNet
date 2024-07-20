@@ -7,7 +7,7 @@ PZStudiosButton.addEventListener("click",
 function() {
 
     localStorage.setItem("SiteLocation", "MainPage");
-    location.replace("https://Z4ckStudios.github.io/SnowwNet/Redirecting/");
+    location.replace("https://Z4ckStudios.github.io/SnowwNet/Redirecting.html");
 })
 
 var HomeButton = document.querySelector(".HomeButton");

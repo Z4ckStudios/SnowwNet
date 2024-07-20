@@ -190,7 +190,7 @@ AUButton.addEventListener("click",
 function() {
     
     localStorage.setItem("SiteLocation", "AboutUs");
-    location.replace("https://Z4ckStudios.github.io/SnowwNet/AboutUs/");
+    location.replace("https://Z4ckStudios.github.io/SnowwNet/AboutUs.html");
 })
 
 SSButton.addEventListener("click",
