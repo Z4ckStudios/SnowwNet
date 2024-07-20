@@ -1,0 +1,78 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.BackgroundIndicator
+{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+.SNLogo
+{
+    position: absolute;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.TextBackground
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 67.2%;
+    left: 50.5%;
+    font-family: Times;
+    font-size: 24px;
+    width: 275px;
+    height: 40px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/*Separation*/
+
+.wrapper
+{
+    display: inline-flex;
+    user-select: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    top: 69.9%;
+    left: 59%;
+}
+.wrapper .dynamic-txts
+{
+    margin-left: -285px;
+    user-select: none;
+    height: 31px;
+    line-height: 33.4px;
+    overflow: hidden;
+}
+.dynamic-txts li
+{
+    position: relative;
+    user-select: none;
+    list-style: none;
+    font-size: 24px;
+    top: 0%;
+    font-weight: 500;
+    animation: slide 2s steps(3) infinite;
+}
+@keyframes slide
+{
+    100%
+    {
+    top: -100px;
+    }
+}

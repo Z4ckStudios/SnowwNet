@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.RetryButton
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 77%;
+    left: 50%;
+    height: 45px;
+    width: 100px;
+    color: rgb(0, 255, 0);
+    font-size: 24px;
+    font-family: Times;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    display: none;
+    border-radius: 10px;
+}
+.RetryButton:hover
+{
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgb(0, 255, 0);
+    cursor: pointer
+}
+.SNLogo
+{
+    position: absolute;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.CheckingBackgroundText
+{
+    position: absolute;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    top: 69.5%;
+    left: 48.5%;
+}
+.CheckingBackground
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    font-size: 24px;
+    background-color: rgb(15, 15, 15);
+    width: 325px;
+    height: 45px;
+    top: 66.7%;
+    left: 50.5%;
+    border-radius: 10px;
+}
+.ServerDots
+{
+    position: absolute;
+    left: 57.5%;
+    top: 68.5%;
+    width: 50px;
+    height: 20px;
+    background: none
+}
+.HomeButton
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 77%;
+    left: 50%;
+    height: 45px;
+    width: 150px;
+    color: rgb(0, 255, 0);
+    font-size: 24px;
+    font-family: Times;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    display: inline;
+    border-radius: 10px;
+}
+.HomeButton:hover
+{
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgb(0, 255, 0);
+    cursor: pointer;
+
+    animation-name: HomeAnim;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+@keyframes HomeAnim{
+    from{border-color: rgb(15, 15, 15)}
+    to{border-color: rgb(0, 255, 0)}
+}

@@ -1,0 +1,44 @@
+body
+{
+    background: rgb(15, 15, 15);
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+.Logo
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.TagLine
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    top: 70%;
+    left: 50.5%;
+}
+.SNBorder
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    top: 72.5%;
+    left: 45%;
+}
+.ICBorder
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    top: 72.5%;
+    left: 56%;
+}
