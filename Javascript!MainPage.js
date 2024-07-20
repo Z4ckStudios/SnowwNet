@@ -5,14 +5,14 @@ var i = 2;
 
 localStorage.setItem("SiteLocation", "MainPage");
 
-var url = "/MainPage/";
+var url = "/SnowwNet/MainPage/";
 window.history.replaceState(null, document.title, url);
 
 document.querySelector(".btnLogin-popup").addEventListener("click",
 function(){
     i = i < LoginUpPopup.length ? ++i : i - 2;
 
-    url = "/MainPage/Login/";
+    url = "/SnowwNet/MainPage/Login/";
     window.history.replaceState(null, document.title, url);
 
 document.querySelector(".LoginWrapper").style.transform = LoginUpPopup[i];
@@ -41,7 +41,7 @@ document.querySelector(".XButtonLogin").addEventListener("click",
 function(){
     i = i < LoginX.length ? ++i : i - 2;
 
-    url = "/MainPage/";
+    url = "/SnowwNet/MainPage/";
     window.history.replaceState(null, document.title, url);
 
 document.querySelector(".LoginWrapper").style.transform = "scale(0)";
@@ -58,7 +58,7 @@ document.querySelector(".btnSignUp-popup").addEventListener("click",
 function(){
     i = i < SignUpPopup.length ? ++i : i - 2;
 
-    url = "/MainPage/SignUp/";
+    url = "/SnowwNet/MainPage/SignUp/";
     window.history.replaceState(null, document.title, url);
 
 document.querySelector(".SignUpWrapper").style.transform = SignUpPopup[i];
@@ -88,7 +88,7 @@ document.querySelector(".XButtonSignUp").addEventListener("click",
 function(){
     i = i < SignUpX.length ? ++i : i - 2;
 
-    url = "/MainPage/";
+    url = "/SnowwNet/MainPage/";
     window.history.replaceState(null, document.title, url);
 
 document.querySelector(".SignUpWrapper").style.transform = "scale(0)";
@@ -123,7 +123,7 @@ var i = 2
 document.querySelector(".ContactInfoText").addEventListener("click",
 function() {
 
-    url = "/MainPage/ContactInfo/";
+    url = "/SnowwNet/MainPage/ContactInfo/";
     window.history.replaceState(null, document.title, url);
 
 document.querySelector(".ContactBackground").style.transform = "scale(1)";
@@ -149,7 +149,7 @@ var i = 2
 document.querySelector(".ContactInfoTextRep").addEventListener("click",
 function() {
 
-    url = "/MainPage/";
+    url = "/SnowwNet/MainPage/";
     window.history.replaceState(null, document.title, url);
 
     document.querySelector(".ContactBackground").style.transform = "scale(0)";

@@ -1,4 +1,4 @@
-var url = "/AboutUs/";
+var url = "/SnowwNet/AboutUs/";
 window.history.replaceState(null, document.title, url);
 
 var PZStudiosButton = document.querySelector(".PZStudiosButton");

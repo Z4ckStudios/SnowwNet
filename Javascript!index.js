@@ -3,7 +3,7 @@ const StartTimerInterval = setInterval(StartTimerInt, 1000);
 
 SiteLocation = localStorage.getItem("SiteLocation");
 
-var url = "/Loading/";
+var url = "/SnowwNet/Loading/";
 window.history.replaceState(null, document.title, url);
 
 function StartTimerInt() {

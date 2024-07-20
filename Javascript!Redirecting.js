@@ -1,4 +1,4 @@
-var url = "/Redirecting/";
+var url = "/SnowwNet/Redirecting/";
 window.history.replaceState(null, document.title, url);
 
 let count = 0;

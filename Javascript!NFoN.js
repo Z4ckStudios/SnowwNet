@@ -1,8 +1,8 @@
 var displays = ["inline", "none"];
 var i = 2;
 
-var url = "/404/";
-//window.history.replaceState(null, document.title, url);
+var url = "/SnowwNet/404/";
+window.history.replaceState(null, document.title, url);
 
 document.querySelector(".DevEmailButton").addEventListener("click",
 function(){
