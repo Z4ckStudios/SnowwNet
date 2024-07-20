@@ -1,7 +1,7 @@
 var url = "https://Z4ckStudios.github.io/SnowwNet/Redirecting";
 window.history.replaceState(null, document.title, url);
 
-SiteLocation = localStorage.getItem(SiteLocation);
+SiteLocation = localStorage.getItem("SiteLocation");
 
 let count = 0;
 const countInterval = setInterval(countInt, 1000);
