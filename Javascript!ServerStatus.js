@@ -2,14 +2,14 @@ HomeButton = document.querySelector(".HomeButton");
 CheckingBackgroundText = document.querySelector(".CheckingBackgroundText");
 ServerDots = document.querySelector(".ServerDots");
 
-var url = "https://Z4ckStudios.github.io/SnowwNet/ServerStatus/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/ServerStatus";
 window.history.replaceState(null, document.title, url);
 
 HomeButton.addEventListener("click",
 function() {
 
     localStorage.setItem("SiteLocation", "MainPage");
-    location.replace("https://Z4ckStudios.github.io/SnowwNet/");
+    location.replace("https://Z4ckStudios.github.io/SnowwNet");
 })
 
 let CheckCounter = 0;

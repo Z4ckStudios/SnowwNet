@@ -1,6 +1,6 @@
 var timeout;
 
-var url = "https://Z4ckStudios.github.io/SnowwNet/IdleDetect/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/IdleDetect";
 window.history.replaceState(null, document.title, url);
 
 document.addEventListener("mousemove", (e) => {

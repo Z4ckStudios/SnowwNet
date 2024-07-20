@@ -3,7 +3,7 @@ const StartTimerInterval = setInterval(StartTimerInt, 1000);
 
 SiteLocation = localStorage.getItem("SiteLocation");
 
-var url = "https://Z4ckStudios.github.io/SnowwNet/";
+var url = "https://Z4ckStudios.github.io/SnowwNet";
 window.history.replaceState(null, document.title, url);
 
 function StartTimerInt() {

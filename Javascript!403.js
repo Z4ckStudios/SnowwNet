@@ -1,4 +1,4 @@
-var url = "https://Z4ckStudios.github.io/SnowwNet/403/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/403";
 window.history.replaceState(null, document.title, url);
 
 HomeButton = document.querySelector(".HomeButton");

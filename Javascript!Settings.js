@@ -5,7 +5,7 @@ setInterval(() => {
 
     count++
 
-    if(count > 300) location.replace("Idle.html");
+    if(count > 300) location.replace("https://Z4ckStudios.github.io/SnowwNet/Idle.html");
 }, 1000);
 
 document.addEventListener("mousemove", (e) => {

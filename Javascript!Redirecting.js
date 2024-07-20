@@ -1,4 +1,4 @@
-var url = "https://Z4ckStudios.github.io/SnowwNet/Redirecting/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/Redirecting";
 window.history.replaceState(null, document.title, url);
 
 SiteLocation = localStorage.getItem(SiteLocation);

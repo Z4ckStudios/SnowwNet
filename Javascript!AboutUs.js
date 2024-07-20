@@ -1,4 +1,4 @@
-var url = "https://Z4ckStudios.github.io/SnowwNet/AboutUs/";
+var url = "https://Z4ckStudios.github.io/SnowwNet/AboutUs";
 window.history.replaceState(null, document.title, url);
 
 var PZStudiosButton = document.querySelector(".PZStudiosButton");
@@ -16,5 +16,5 @@ HomeButton.addEventListener("click",
 function() {
 
     localStorage.setItem("SiteLocation", "MainPage");
-    location.replace("https://Z4ckStudios.github.io/SnowwNet/");
+    location.replace("https://Z4ckStudios.github.io/SnowwNet");
 })
