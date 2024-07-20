@@ -1,11 +1,11 @@
-RetryButton = document.querySelector(".RetryButton");
+HomeButton = document.querySelector(".HomeButton");
 CheckingBackgroundText = document.querySelector(".CheckingBackgroundText");
 ServerDots = document.querySelector(".ServerDots");
 
 var url = "https://Z4ckStudios.github.io/SnowwNet/ServerStatus/";
 window.history.replaceState(null, document.title, url);
 
-RetryButton.addEventListener("click",
+HomeButton.addEventListener("click",
 function() {
 
     localStorage.setItem("SiteLocation", "MainPage");
