@@ -11,15 +11,16 @@ function StartTimerInt() {
 
     if(StartTimer > 1)
         {
-            if(SiteLocation == null || SiteLocation == "MainPage")
+        if(SiteLocation == null || SiteLocation == "MainPage")
         {location.replace("https://Z4ckStudios.github.io/SnowwNet/MainPage.html");}
-            else
+
         if(SiteLocation == "AboutUs")
         {location.replace("https://Z4ckStudios.github.io/SnowwNet/AboutUs.html");}
-        else
+
         if(SiteLocation == "ServerStatus")
         {location.replace("https://Z4ckStudios.github.io/SnowwNet/ServerStatus.html");}
-        else
+
         if(SiteLocation == "Home")
-        {location.replace("https://Z4ckStudios.github.io/SnowwNet/Home.html");}}
+        {location.replace("https://Z4ckStudios.github.io/SnowwNet/Home.html");}
+    }
 }
